@@ -1,0 +1,8 @@
+ln -s        = sembolic link 
+ln -f        = hard link 
+chmod 777    = permissions
+chmod -h     = sembolic link permissions
+touch -t     = modification time
+touch -h -t  = sembolic link time
+
+echo -n "a" >> file   = 1 byte file 

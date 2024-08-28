@@ -1,0 +1,3 @@
+touch -t
+echo -n "40 character" >> file
+chmod 
