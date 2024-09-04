@@ -52,7 +52,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	i = 0;
 	while (i < ac)
 	{
-		array[i].size = ft_str_length(av[i]);
+		array[i].size = ft_strlen(av[i]);
 		array[i].str = av[i];
 		array[i].copy = ft_strdup(av[i]);
 		i++;
