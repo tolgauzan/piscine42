@@ -39,16 +39,14 @@ char	*ft_strcapitalize(char *str)
 		if (str[i] >= 'a' && str[i] <= 'z')
 		{
 			if (is_first == 1)
-			{
 				str[i] -= 32;
 				is_first = 0;
-			}
-			else if (str[i] >= '0' && str[i] <= '9')
-				is_first = 0;
-			else
-				is_first = 1;
-			i++;
 		}
+		else if (str[i] >= '0' && str[i] <= '9')
+			is_first = 0;
+		else
+			is_first = 1;
+		i++;
 	}
 	return (str);
 }
